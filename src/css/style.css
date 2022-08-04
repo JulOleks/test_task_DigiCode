@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header .header__surface__area {
+  display: inline-block;
+  padding: 25px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.header .surface__area_data {
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.header .surface__area {
+  display: inline-block;
+  min-width: 120px;
+  vertical-align: middle;
+}
+
+.header .header__current__shapes {
+  display: inline-block;
+  padding: 25px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.header .current__shapes_data {
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.header .current__shapes {
+  display: inline-block;
+  min-width: 200px;
+  vertical-align: middle;
+}
+
+.footer__gravity, .footer__number__shapes{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.footer__number__shapes .footer__number__shapes__text, .footer__gravity .footer__gravity__text {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer__number__shapes .footer__number_shapes__data, .footer__gravity .footer__gravity__data{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.btn__increase{
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 0px 0px rgb(0, 0, 0, 0.1);
+}
+
+.btn__decrease {
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 0px 0px rgb(0, 0, 0, 0.1);
+}
+
+.btn__sign__increase {
+  text-align: center;
+  margin-top: -15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(7, 197, 255);
+}
+
+.btn__sign__decrease {
+  text-align: center;
+  margin-top: -18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(7, 197, 255);
+}
